@@ -1,0 +1,64 @@
+body{
+    background: url('./resources/lion_king.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+@media only screen and (max-width: 600px) {
+    .story{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+} 
+@media only screen and (min-width: 600px) {
+    .story{
+        flex-direction: column;
+    }
+} 
+
+@media only screen and (min-width: 1100px) {
+    .story{
+        flex-direction: row;
+    }
+}
+.story-wrapper{
+    background-color: #FF8C9578;
+    margin: 3%;
+    padding:3%;
+    
+}
+.story{
+    display: flex;
+    
+}
+.story > div{
+    
+    flex: 1;
+    margin :10px;
+
+}
+.story .content{
+    text-align: justify;
+}
+.story .about{
+    display: flex;
+    margin :10px;
+}
+.about .post{
+    flex: 2;
+    font-weight: 700;  
+    color: #2289F7; 
+}
+
+.about .name{
+    flex: 3;
+    
+}
+.story-wrapper .heading{
+    font-size: 45px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
