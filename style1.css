@@ -6,11 +6,11 @@
                             "v1"
                             "v2" 
                             "ga";
-        }
-        .video{
-            margin: 10%;
-            height: 250px;
-        }
+    }
+    .video{
+        margin: 10%;
+        height: 250px;
+    }
     .gallery{
         flex-direction: column;
         text-align: center;
@@ -91,7 +91,6 @@
     color: white;
     background-color:#92CE1A;
     height: 15px;
-
     padding: 10px;
     line-height: 50px;
     border-radius: 5px;
